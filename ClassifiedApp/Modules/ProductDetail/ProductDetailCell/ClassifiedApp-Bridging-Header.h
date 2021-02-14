@@ -4,3 +4,4 @@
 
 #import "ProductDetailCollectionViewCell.h"
 #import "ProductDetailCollectionViewPresenter.h"
+#import "ProductDetailCollectionViewInteractor.h"

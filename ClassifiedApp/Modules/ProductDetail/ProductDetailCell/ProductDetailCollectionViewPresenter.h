@@ -13,14 +13,14 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol ProductDetailPresenter
 
 @required
-- (void) viewDidLoad;
+- (void) fetchImageAtIndexPath: (NSIndexPath *) indexPath onSuccess: (void (^)(UIImage *)) image onErrorBlock:(void (^)(NSError *)) errorBlock;
 
 @end
 
 @interface ProductDetailCollectionViewPresenter : NSObject <ProductDetailPresenter>
 
-
 - (instancetype) initWithImages: (NSArray<NSString*> *) images;
+
 
 
 @end

@@ -62,14 +62,15 @@ extension ProductDetailViewController: UICollectionViewDataSource {
         let cellPresenter = ProductDetailCollectionViewPresenter(images: self.presenter.getImages())
         
     //        let cellPresenter = ProductTableCellPresenter(withCell: cell, withProduct: self.presenter.getProduct(at: indexPath))
-            cell.presenter = cellPresenter
+//            cell.presenter = cellPresenter
+        cell.setPresenter(cellPresenter, for: indexPath)
         
         return cell
     }
 
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-//        return presenter.imagesCount
-        return 3
+        return presenter.imagesCount
+//        return 3
     }
     
 }

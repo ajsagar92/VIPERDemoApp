@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UIImageView *uiimageProduct;
 
-@property (nonatomic, strong) ProductDetailCollectionViewPresenter *presenter;
+- (void) setPresenter: (ProductDetailCollectionViewPresenter *)presenter forIndexPath: (NSIndexPath *) indexPath;
 
 @end
 

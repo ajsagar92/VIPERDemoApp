@@ -37,7 +37,6 @@ class ProductTableViewCell: UITableViewCell {
         self.labelProductPrice.text = presenter?.getPrice()
         presenter?.getThumbmailImage(onCompletion: { (image, error) in
             self.imageProduct.image = image
-//            self.tableView?.reloadData()
         })
     }
 

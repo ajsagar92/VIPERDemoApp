@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(instancetype) initWithImages: (NSArray<NSString *> *) images;
 
-- (void) fetchImageAtIndexPath: (NSIndexPath *) indexPath onSuccess: (void (^)(UIImage *)) image onErrorBlock:(void (^)(NSError *)) errorBlock;
+@property (strong, nonatomic, readonly) NSArray<NSString *> *images;
 
 @end
 

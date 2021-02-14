@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		30F598AF04AC10C00D7D5068 /* Pods_ClassifiedApp_ClassifiedAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000046DEF77D0794BF4BC68E /* Pods_ClassifiedApp_ClassifiedAppUITests.framework */; };
 		3637C1F14688555FFA36B61C /* Pods_ClassifiedApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729D378734C5742C823513FD /* Pods_ClassifiedApp.framework */; };
+		4D15C2EC25D924C50082EE63 /* ProductDetailCollectionViewInteractor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15C2EB25D924C50082EE63 /* ProductDetailCollectionViewInteractor+Ext.swift */; };
 		4D6297F925D7BFDE001C1787 /* AppRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6297F825D7BFDE001C1787 /* AppRequest.swift */; };
 		4D62980225D7C5AF001C1787 /* Session+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62980125D7C5AF001C1787 /* Session+Ext.swift */; };
 		4D62981325D7ED08001C1787 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62981225D7ED08001C1787 /* UIViewController+Ext.swift */; };
@@ -70,6 +71,7 @@
 		03307D5A906BC06D80C0C2E8 /* Pods-ClassifiedApp-ClassifiedAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassifiedApp-ClassifiedAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ClassifiedApp-ClassifiedAppUITests/Pods-ClassifiedApp-ClassifiedAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		059851911460B38E14003511 /* Pods-ClassifiedApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassifiedApp.release.xcconfig"; path = "Target Support Files/Pods-ClassifiedApp/Pods-ClassifiedApp.release.xcconfig"; sourceTree = "<group>"; };
 		4705B4393D5720F945586F27 /* Pods-ClassifiedApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassifiedApp.debug.xcconfig"; path = "Target Support Files/Pods-ClassifiedApp/Pods-ClassifiedApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4D15C2EB25D924C50082EE63 /* ProductDetailCollectionViewInteractor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductDetailCollectionViewInteractor+Ext.swift"; sourceTree = "<group>"; };
 		4D6297F825D7BFDE001C1787 /* AppRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRequest.swift; sourceTree = "<group>"; };
 		4D62980125D7C5AF001C1787 /* Session+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+Ext.swift"; sourceTree = "<group>"; };
 		4D62981225D7ED08001C1787 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
@@ -180,10 +182,11 @@
 				4D6298AF25D86F09001C1787 /* ProductDetailCollectionViewCell.h */,
 				4D6298B025D86F09001C1787 /* ProductDetailCollectionViewCell.m */,
 				4D6298AE25D86F09001C1787 /* ClassifiedApp-Bridging-Header.h */,
+				4D15C2EB25D924C50082EE63 /* ProductDetailCollectionViewInteractor+Ext.swift */,
 				4D6298BA25D8783B001C1787 /* ProductDetailCollectionViewInteractor.h */,
 				4D6298BB25D8783B001C1787 /* ProductDetailCollectionViewInteractor.m */,
-				4D6298C025D87852001C1787 /* ProductDetailCollectionViewPresenter.h */,
 				4D6298C125D87852001C1787 /* ProductDetailCollectionViewPresenter.m */,
+				4D6298C025D87852001C1787 /* ProductDetailCollectionViewPresenter.h */,
 			);
 			path = ProductDetailCell;
 			sourceTree = "<group>";
@@ -623,6 +626,7 @@
 				4D9E537E25D4633A008ECCC7 /* SceneDelegate.swift in Sources */,
 				4D68AD1B25D7217600355C3F /* API.swift in Sources */,
 				4D62989A25D85F85001C1787 /* ProductTableCellInteractor.swift in Sources */,
+				4D15C2EC25D924C50082EE63 /* ProductDetailCollectionViewInteractor+Ext.swift in Sources */,
 				4D62983525D81CBD001C1787 /* ProductTableCellPresenter.swift in Sources */,
 				4D65531B25D6DD4F0016E923 /* ProductListModuleBuilder.swift in Sources */,
 				4D62986D25D8308B001C1787 /* ProductDetailPresenter.swift in Sources */,

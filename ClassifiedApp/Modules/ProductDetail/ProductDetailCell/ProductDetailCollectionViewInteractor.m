@@ -23,7 +23,4 @@
     return self;
 }
 
-- (void) fetchImageAtIndexPath: (NSIndexPath *) indexPath onSuccess: (void (^)(UIImage *)) image onErrorBlock:(void (^)(NSError *)) errorBlock {
-}
-
 @end
